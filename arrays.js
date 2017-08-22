@@ -6,13 +6,14 @@ function addElementToBeginningOfArray (arr, elm) {
 }
 
 function destructivelyAddElementToBeginningOfArray (arr, elm) {
-  
+
 }
 
 function addElementToEndOfArray (arr, elm) {
-  
+ arr.push(elm)
+ return arr
 }
 
 function destructivelyAddElementToEndOfArray (arr, elm) {
-  
+
 }
