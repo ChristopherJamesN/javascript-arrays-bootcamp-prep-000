@@ -3,6 +3,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 function addElementToBeginningOfArray (arr, elm) {
   var newArr = arr.unshift(elm)
   return newArr
+  return arr
 }
 
 function destructivelyAddElementToBeginningOfArray (arr, elm) {
@@ -13,6 +14,7 @@ function destructivelyAddElementToBeginningOfArray (arr, elm) {
 function addElementToEndOfArray (arr, elm) {
  var newArr = arr.push(elm)
  return newArr
+ return arr
 }
 
 function destructivelyAddElementToEndOfArray (arr, elm) {
